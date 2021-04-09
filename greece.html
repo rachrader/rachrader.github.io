@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Greece Webpage</title>
+    <link href="css/style.css" rel="stylesheet"/>
   </head>
 
+
   <body>
+
+<div id="wrapper">
+
     <header>
       <h1>Greece</h1>
     </header>
@@ -22,7 +27,7 @@
     <main>
       <aside>
         <figure>
-          <img src="greece-flag.png" alt="Greece Flag"/>
+          <img src="img/greece-flag.png" alt="Greece Flag"/>
           <figcaption> Flag of Greece(Source CIA World Factbook)</figcaption>
         </figure>
       </aside>
@@ -50,7 +55,7 @@
             <p>Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey </p>
             <aside>
               <figure>
-                <img src="greece-map.png" alt="Map of Greece" />
+                <img src="img/greece-map.png" alt="Map of Greece" />
                 <figcaption> Greece (Source CIA World Factbook)</figcaption>
               </figure>
             </aside>
@@ -68,12 +73,26 @@
 
         <article>
           <h3>Area</h3>
-            <ul>
-            <li>total:131,957 <abbr title="square kilometer">sq km</abbr></li>
-            <li>land:130,647 sq km</li>
-            <li>water:1,310 sq km</li>
-            <li>country comparison to the world: 97</li>
-            </ul>
+
+            <table>
+              <caption> Area of Greece </caption>
+                <tr>
+                  <th>Section</th>
+                  <th> Size</th>
+                </tr>
+
+                <tr>
+                  <td>Total</td> <td>131,957 <abbr title="square kilometer">sq km</abbr></td>
+                </tr>
+
+                <tr>
+                  <td>Land</td> <td>130,647 sq km</td>
+                </tr>
+
+                <tr>
+                  <td>Water</td> <td>1,310 sq km</td>
+            </table>
+              <p><small>note: country comparison to the world:97</small></p>
         </article>
       </section>
 
@@ -95,6 +114,7 @@
           </article>
 
           <article>
+            <h3> Ethnic Groups </h3>
 
             <table>
               <caption> Ethnic Groups of Greece (2011) </caption>
@@ -119,26 +139,7 @@
               <p><small>note: data represent citizenship; Greece does not collect data on ethnicity</small></p>
           </article>
 
-          <article>
-            <h3>Languages</h3>
-              <ul>
-                <li>Greek (official) 99%</li>
-                <li>other (includes English and French) 1%</li>
-              </ul>
 
-          </article>
-
-          <article>
-            <h3>Religions</h3>
-              <ul>
-                <li>Greek Orthodox (official) 81-90%</li>
-                <li>Muslim 2%</li>
-                <li>other 3%</li>
-                <li>none 4-15%</li>
-                <li>unspecified 1% (2015 est.)</li>
-              </ul>
-
-          </article>
       </section>
 
 
@@ -200,5 +201,6 @@
       <p>Source: <a href="https://www.cia.gov/the-world-factbook/countries/greece">CIA World Factbook</a></p>
     </footer>
 
+</div>
   </body>
 </html>
