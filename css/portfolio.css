@@ -1,0 +1,119 @@
+/* This is a CSS comment. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  color:#698561;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #a2a987;
+
+  width: 960px;
+  margin-top: 4em;
+  margin-bottom: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border-top-style: inset;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: inset;
+}
+
+nav{
+  background-color: #c1c5af;
+
+  width: 860px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: inset;
+}
+
+a:default{
+  color:#5983FC
+}
+
+a:visited {
+  color: #FF1493
+}
+a:hover {
+  color: #000000
+}
+
+a:active {
+  color: #FF8C00
+}
+
+main {
+  background-color: #a2a987;
+
+  width: 960px;
+  margin-top: 0em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: inset;
+
+}
+
+
+section {
+  background-color: #c1c5af;
+
+  width: 860px;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border-top-style: inset;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: inset;
+}
+
+h1,h3,h4 {
+  color:#FFFFFF;
+}
+
+h2{
+  color:#000000;
+}
+
+#wrapper{
+  max-width: 960px;
+  margin: auto;
+}
