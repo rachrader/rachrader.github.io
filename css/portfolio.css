@@ -49,17 +49,23 @@ nav li {
   display: inline-block;
   margin-right: 20px;
   border: 2px solid #FFFFFF;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background-color: #c1c5af;
+
 }
 
 a:default{
-  color:#5983FC
+  color:#000000;
 }
 
 a:visited {
   color: #FF1493
 }
 a:hover {
-  color: #000000
+  color: #FFFFFF
 }
 
 a:active {
